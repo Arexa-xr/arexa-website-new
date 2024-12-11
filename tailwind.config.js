@@ -6,6 +6,7 @@ export default {
          fontFamily: {
             heading: "Nohemi",
             bodyContent: "Lora",
+            helper: "Poppins",
          },
 
          colors: {
@@ -13,7 +14,7 @@ export default {
             primary: "#000000",
             primaryShade: "#808080",
             secondary: "#C7F0FF",
-            nav: "#DDB8F5"
+            nav: "#DDB8F5",
          },
       },
    },

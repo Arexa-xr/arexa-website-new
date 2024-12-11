@@ -23,11 +23,11 @@ const Navbar = ({ navbar }) => {
                />
             </Link>
 
-            <div className="hidden md:block max-w-[828px] bg-secondary rounded-full py-[10px] px-[20px]">
+            <div className="hidden lg:block max-w-[828px] bg-secondary rounded-full py-[10px] px-[20px]">
                <div className="flex items-center gap-[46px]">
                   {navlinks.map((link, idx) => (
                      <ul key={idx} className="font-bold">
-                        <Link to={link.path}>
+                        <a href={link.path}>
                            <li
                               className={`${
                                  location.pathname === link.path
@@ -37,14 +37,14 @@ const Navbar = ({ navbar }) => {
                            >
                               {link.label}
                            </li>
-                        </Link>
+                        </a>
                      </ul>
                   ))}
                </div>
             </div>
 
             <div
-               className="block md:hidden bg-[#fff] p-2 rounded-xl cursor-pointer"
+               className="block lg:hidden bg-[#fff] p-2 rounded-xl cursor-pointer"
                onClick={handleChange}
             >
                {nav ? <IoIosClose size={30} /> : <IoIosMenu size={30} />}
@@ -55,7 +55,7 @@ const Navbar = ({ navbar }) => {
             <div className="md:hidden absolute top-28 left-0 w-full bg-secondary p-5 shadow-lg z-10">
                <ul className="flex flex-col gap-4">
                   {navlinks.map((link, idx) => (
-                     <Link to={link.path} key={idx} onClick={handleChange}>
+                     <a href={link.path} key={idx} onClick={handleChange}>
                         <li
                            className={`${
                               location.pathname === link.path
@@ -65,7 +65,7 @@ const Navbar = ({ navbar }) => {
                         >
                            {link.label}
                         </li>
-                     </Link>
+                     </a>
                   ))}
                </ul>
             </div>

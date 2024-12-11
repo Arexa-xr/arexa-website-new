@@ -11,7 +11,7 @@ const Footer = ({ footer }) => {
       socials,
    } = footer;
    return (
-      <div className="w-full px-5 sm:px-10 mb-5">
+      <div className="w-full px-5 sm:px-10 mb-5 mt-10">
          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 items-center justify-center md:gap-20 w-full border-b-2">
             <h3 className="text-xl font-medium font-heading">
                {footerContent}

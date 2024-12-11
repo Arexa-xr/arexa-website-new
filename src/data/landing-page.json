@@ -3,7 +3,7 @@
       "logo": "/logo.svg",
       "navlinks": [
          { "label": "Home", "path": "/" },
-         { "label": "Services", "path": "/services" },
+         { "label": "Services", "path": "#services" },
          { "label": "About Us", "path": "/about" },
          { "label": "Portfolio", "path": "/portfolio" },
          { "label": "Blogs", "path": "/blogs" },
@@ -15,7 +15,68 @@
       "title": "Make your brand unforgettable with our AR Solutions",
       "subHeading": "Arexa specialises in creating jaw-dropping Augmented Reality (AR), Virtual Reality (VR), and CGI experiences tailored for Brands, Companies, Campaigns, and Influencers.",
       "buttonTitle": "Portfolio",
-      "homeVector": "/homeVector.png"
+      "homeVector": "/homeVector.png",
+      "brand": {
+         "icon": "/icons/brand.svg",
+         "count": "150+",
+         "title": "Brands"
+      },
+      "impressions": {
+         "icon": "/icons/impression.svg",
+         "count": "4B+",
+         "title": "Impression"
+      },
+      "engagement": {
+         "icon": "/icons/engagement.svg",
+         "count": "80%",
+         "title": "Engagement"
+      },
+      "brandPartners": [
+         { "icon": "/partners/letsUpgrade.png" },
+         { "icon": "/partners/snapAr.png" },
+         { "icon": "/partners/letsUpgrade.png" },
+         { "icon": "/partners/snapAr.png" },
+         { "icon": "/partners/letsUpgrade.png" },
+         { "icon": "/partners/snapAr.png" },
+         { "icon": "/partners/letsUpgrade.png" },
+         { "icon": "/partners/snapAr.png" }
+      ]
+   },
+
+   "services": {
+      "heading": "Elevate your Brand with our Innovative Extended Reality Solutions",
+      "servicesList": [
+         {
+            "title": "AR Filters",
+            "icon": "/services/arFilter.png",
+            "desc": "Make your social media pop with our Social AR services! We create fun, interactive filters and effects that get people talking about your brand."
+         },
+         {
+            "title": "XR Applications",
+            "icon": "/services/xrApplication.png",
+            "desc": "Build custom AR & VR apps! We design, develop, and deploy apps that solve real-world problems and amaze users."
+         },
+         {
+            "title": "AR Swags",
+            "icon": "/services/arSwags.png",
+            "desc": "Turn your ordinary swags or gifts into AR enabled Swags. Be it a small sticker or an ID Card or a T-shirt, we can add magic to it using AR."
+         },
+         {
+            "title": "AR for Websites",
+            "icon": "/services/arWeb.png",
+            "desc": "Bring your website to life with our Web AR services! We design interactive experiences that play right in your browser, no apps needed."
+         },
+         {
+            "title": "Virtual Try-On",
+            "icon": "/services/virtual.png",
+            "desc": "Try before you buy with our Virtual  Try-On services! We use AR to let customers see how products look without having to physically try them."
+         },
+         {
+            "title": "AR Marketing",
+            "icon": "/services/arMarketing.png",
+            "desc": "Developing interactive AR advertisements to engage customers with memorable brand experiences at events and promotions."
+         }
+      ]
    },
 
    "footer": {
