@@ -1,0 +1,13 @@
+{
+   "navbar": {
+      "logo": "/logo.svg",
+      "navlinks": [
+         { "label": "Home", "path": "/" },
+         { "label": "Services", "path": "/services" },
+         { "label": "About Us", "path": "/about" },
+         { "label": "Portfolio", "path": "/portfolio" },
+         { "label": "Blogs", "path": "/blogs" },
+         { "label": "Contact Us", "path": "/contact" }
+      ]
+   }
+}

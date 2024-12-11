@@ -1,9 +1,13 @@
-import React from 'react'
+import React from "react";
+import { BrowserRouter } from "react-router-dom";
+import Layout from "./utils/Layout";
 
 const App = () => {
-  return (
-    <div>App</div>
-  )
-}
+   return (
+      <BrowserRouter>
+         <Layout></Layout>
+      </BrowserRouter>
+   );
+};
 
-export default App
+export default App;
