@@ -8,7 +8,7 @@ const Layout = ({ children }) => {
       <div className="flex flex-col min-h-screen">
          <Navbar navbar={data.navbar} />
          <main className="flex-grow">{children}</main>
-         <Footer />
+         <Footer footer={data.footer} />
       </div>
    );
 };

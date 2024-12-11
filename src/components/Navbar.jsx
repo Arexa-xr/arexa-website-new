@@ -14,7 +14,14 @@ const Navbar = ({ navbar }) => {
    return (
       <div className="w-full h-28 px-5 sm:px-10">
          <div className="flex items-center justify-between w-full h-full">
-            <img src={logo} width={160} alt="Logo" className="cursor-pointer" />
+            <Link to="/">
+               <img
+                  src={logo}
+                  width={160}
+                  alt="Logo"
+                  className="cursor-pointer"
+               />
+            </Link>
 
             <div className="hidden md:block max-w-[828px] bg-secondary rounded-full py-[10px] px-[20px]">
                <div className="flex items-center gap-[46px]">

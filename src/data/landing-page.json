@@ -9,5 +9,41 @@
          { "label": "Blogs", "path": "/blogs" },
          { "label": "Contact Us", "path": "/contact" }
       ]
+   },
+
+   "home": {
+      "title": "Make your brand unforgettable with our AR Solutions",
+      "subHeading": "Arexa specialises in creating jaw-dropping Augmented Reality (AR), Virtual Reality (VR), and CGI experiences tailored for Brands, Companies, Campaigns, and Influencers.",
+      "buttonTitle": "Portfolio",
+      "homeVector": "/homeVector.png"
+   },
+
+   "footer": {
+      "footerContent": "Harness the power of smartphones to create immersive, engaging, and impactful augmented reality experiences that elevate your brand.",
+      "ourServicesFirst": [
+         { "label": "Instagram AR" },
+         { "label": "Snapchat AR" },
+         { "label": "Tiktok AR" },
+         { "label": "web AR" }
+      ],
+      "ourServicesSecond": [
+         { "label": "AR Apps" },
+         { "label": "VR Apps" },
+         { "label": "CGI Videos" },
+         { "label": "3D Renders" }
+      ],
+      "quickLinks": [
+         { "label": "Our Work" },
+         { "label": "Clientele" },
+         { "label": "Contact Us" },
+         { "label": "Blogs" }
+      ],
+      "logo": "/logo.svg",
+      "socials": [
+         { "label": "Twiiter", "icon": "/icons/twitter.svg" },
+         { "label": "Linkedin", "icon": "/icons/linkedin.svg" },
+         { "label": "Tiktok", "icon": "/icons/tiktok.svg" },
+         { "label": "Youtube", "icon": "/icons/youtube.svg" }
+      ]
    }
 }
