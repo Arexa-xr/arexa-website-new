@@ -3,7 +3,7 @@ import React from "react";
 const OurWork = ({ work }) => {
    const { heading, videos } = work;
    return (
-      <section id="work" className="w-full">
+      <section id="work" className="w-full px-5 lg:px-10">
          <div className="flex flex-col items-center justify-center w-full">
             <h2 className="text-[30px] md:text-[47px] font-heading font-bold">
                {heading}
@@ -14,7 +14,7 @@ const OurWork = ({ work }) => {
                   return (
                      <div
                         key={idx}
-                        className="bg-white max-w-[271px] min-h-[532px] p-5 rounded-xl"
+                        className="bg-white max-w-[271px] lg:min-h-[532px] p-5 rounded-xl"
                      >
                         <div className="flex flex-col items-center gap-3">
                            <video
@@ -22,13 +22,17 @@ const OurWork = ({ work }) => {
                               loop
                               autoPlay
                               muted
+                              playsInline
                               className="rounded-xl"
+                              preload="metadata"
                               onError={(e) =>
                                  console.error("Video failed to load:", e)
                               }
                            />
                            <h3>{video.tag}</h3>
-                           <h3 className="font-bold text-xl">{video.brandName}</h3>
+                           <h3 className="font-bold text-xl text-center">
+                              {video.brandName}
+                           </h3>
                         </div>
                      </div>
                   );
