@@ -8,7 +8,7 @@ const Home = ({ home }) => {
       title,
       subHeading,
       buttonTitle,
-      homeVector,
+      homeVideo,
       brand,
       impressions,
       engagement,
@@ -32,9 +32,14 @@ const Home = ({ home }) => {
                   </div>
                </div>
 
-               <img
-                  src={homeVector}
-                  alt="Home Vector"
+               <video
+                  src={homeVideo}
+                  loop
+                  autoPlay
+                  muted
+                  playsInline
+                  preload="metadata"
+                  onError={(e) => console.error("Video failed to load:", e)}
                   className="w-full h-auto md:w-[719px] max-h-[810px]"
                />
             </div>
@@ -85,7 +90,9 @@ const Home = ({ home }) => {
 
          <div className="mt-10 w-full px-5 lg:px-10">
             <div className="flex justify-center w-full">
-               <h3 className="text-[30px] lg:text-[50px] font-bold font-helper text-center">OUR BUSINESS PARTNERS</h3>
+               <h3 className="text-[30px] lg:text-[50px] font-bold font-helper text-center">
+                  OUR BUSINESS PARTNERS
+               </h3>
             </div>
             <div className="w-full bg-white px-5 py-3 rounded-xl mt-5">
                <Marquee pauseOnHover={true} autoFill={false} speed={100}>

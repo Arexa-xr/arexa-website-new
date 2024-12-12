@@ -7,6 +7,7 @@ import data from "./data/landing-page.json";
 import Services from "./pages/Services";
 import Clients from "./pages/Clients";
 import OurWork from "./pages/OurWork";
+import Testimonials from "./pages/Testimonials";
 
 const App = () => {
    const [splashScreen, setSplashScreen] = useState(true);
@@ -14,7 +15,7 @@ const App = () => {
    useEffect(() => {
       const timer = setTimeout(() => {
          setSplashScreen(false);
-      }, 3500);
+      }, 5000);
 
       return () => clearTimeout(timer);
    }, []);
@@ -41,6 +42,9 @@ const App = () => {
                            </div>
                            <div id="clients">
                               <Clients clients={data.clients} />
+                           </div>
+                           <div>
+                              <Testimonials testimonials={data.testimonials} />
                            </div>
                         </>
                      }

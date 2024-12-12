@@ -15,7 +15,7 @@
       "title": "Make your brand unforgettable with our AR Solutions",
       "subHeading": "Arexa specialises in creating jaw-dropping Augmented Reality (AR), Virtual Reality (VR), and CGI experiences tailored for Brands, Companies, Campaigns, and Influencers.",
       "buttonTitle": "Portfolio",
-      "homeVector": "/homeVector.png",
+      "homeVideo": "/homeVideo.MP4",
       "brand": {
          "icon": "/icons/brand.svg",
          "count": "150+",
@@ -144,6 +144,42 @@
    "clients": {
       "heading": "Our Clients",
       "imageUrl": "/clients.svg"
+   },
+
+   "testimonials": {
+      "heading": "Testimonials",
+      "testimonialLists": [
+         {
+            "name": "Michael Brown",
+            "designation": "Online Entrepreneur",
+            "avatar": "/avatar.svg",
+            "desc": "I've been using this web hosting service for a few months and it's been nothing but problems. My website has gone down multiple times and the customer service has been unresponsive. I would not recommend this company."
+         },
+         {
+            "name": "Michael Brown",
+            "designation": "Online Entrepreneur",
+            "avatar": "/avatar.svg",
+            "desc": "I've been using this web hosting service for a few months and it's been nothing but problems. My website has gone down multiple times and the customer service has been unresponsive. I would not recommend this company."
+         },
+         {
+            "name": "Michael Brown",
+            "designation": "Online Entrepreneur",
+            "avatar": "/avatar.svg",
+            "desc": "I've been using this web hosting service for a few months and it's been nothing but problems. My website has gone down multiple times and the customer service has been unresponsive. I would not recommend this company."
+         },
+         {
+            "name": "Michael Brown",
+            "designation": "Online Entrepreneur",
+            "avatar": "/avatar.svg",
+            "desc": "I've been using this web hosting service for a few months and it's been nothing but problems. My website has gone down multiple times and the customer service has been unresponsive. I would not recommend this company."
+         },
+         {
+            "name": "Michael Brown",
+            "designation": "Online Entrepreneur",
+            "avatar": "/avatar.svg",
+            "desc": "I've been using this web hosting service for a few months and it's been nothing but problems. My website has gone down multiple times and the customer service has been unresponsive. I would not recommend this company."
+         }
+      ]
    },
 
    "footer": {
