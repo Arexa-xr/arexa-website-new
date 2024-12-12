@@ -79,6 +79,73 @@
       ]
    },
 
+   "work": {
+      "heading": "Our Work",
+      "videos": [
+         {
+            "videoUrl": "/work/1.mp4",
+            "tag": "#SugarTurns7",
+            "brandName": "Sugar Cosmetics"
+         },
+         {
+            "videoUrl": "/work/2.MP4",
+            "tag": "Watani Credit Card",
+            "brandName": "Rakbank"
+         },
+         {
+            "videoUrl": "/work/3.mp4",
+            "tag": "Big Billion Days",
+            "brandName": "Flipkart"
+         },
+         {
+            "videoUrl": "/work/4.mp4",
+            "tag": "Pack It",
+            "brandName": "American Tourister"
+         },
+         {
+            "videoUrl": "/work/5.mp4",
+            "tag": "WireFramed'23",
+            "brandName": "Figma"
+         },
+         {
+            "videoUrl": "/work/6.mp4",
+            "tag": "Gen AI Cartoon",
+            "brandName": "Arexa"
+         },
+         { "videoUrl": "/work/7.mp4", "tag": "Sarkaare", "brandName": "King" },
+         {
+            "videoUrl": "/work/8.mp4",
+            "tag": "Unlock July",
+            "brandName": "XDG Mumbai"
+         },
+         {
+            "videoUrl": "/work/9.mp4",
+            "tag": "Neon Stickman",
+            "brandName": "Searix"
+         },
+         {
+            "videoUrl": "/work/10.mp4",
+            "tag": "100yrs of Valrhona",
+            "brandName": "Valrhona"
+         },
+         {
+            "videoUrl": "/work/11.mp4",
+            "tag": "Crocs Lens",
+            "brandName": "Arexa"
+         },
+         {
+            "videoUrl": "/work/12.mp4",
+            "tag": "Gojek Safe Game",
+            "brandName": "Gojek"
+         }
+      ]
+   },
+
+   "clients": {
+      "heading": "Our Clients",
+      "imageUrl": "/clients.svg"
+   },
+
    "footer": {
       "footerContent": "Harness the power of smartphones to create immersive, engaging, and impactful augmented reality experiences that elevate your brand.",
       "ourServicesFirst": [

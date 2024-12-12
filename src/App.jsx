@@ -5,6 +5,8 @@ import Home from "./pages/Home";
 import SplashScreen from "./pages/SplashScreen";
 import data from "./data/landing-page.json";
 import Services from "./pages/Services";
+import Clients from "./pages/Clients";
+import OurWork from "./pages/OurWork";
 
 const App = () => {
    const [splashScreen, setSplashScreen] = useState(true);
@@ -33,6 +35,12 @@ const App = () => {
                            </div>
                            <div id="services">
                               <Services services={data.services} />
+                           </div>
+                           <div id="work">
+                              <OurWork work={data.work} />
+                           </div>
+                           <div id="clients">
+                              <Clients clients={data.clients} />
                            </div>
                         </>
                      }
