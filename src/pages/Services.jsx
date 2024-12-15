@@ -10,7 +10,7 @@ const Services = ({ services }) => {
             </h2>
          </div>
 
-         <div className="flex flex-wrap items-center justify-center w-full gap-5">
+         <div className="flex flex-wrap items-center justify-center w-full gap-5 py-10">
             {servicesList.map((service, idx) => {
                return (
                   <div

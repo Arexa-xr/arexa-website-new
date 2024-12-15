@@ -15,7 +15,7 @@ const Testimonials = ({ testimonials }) => {
    const cardHeight = "h-80";
 
    return (
-      <div className="w-full px-5 lg:px-10">
+      <div className="w-full px-5 lg:px-10 py-10">
          <div className="flex flex-col items-center justify-center gap-5 w-full">
             <h3 className="text-[30px] md:text-[47px] font-heading font-bold">
                {heading}

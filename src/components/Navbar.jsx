@@ -23,6 +23,7 @@ const Navbar = ({ navbar }) => {
                />
             </Link>
 
+
             <div className="hidden lg:block max-w-[828px] bg-secondary rounded-full py-[10px] px-[20px]">
                <div className="flex items-center gap-[46px]">
                   {navlinks.map((link, idx) => (
